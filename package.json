@@ -1,0 +1,38 @@
+{
+    "name": "lhama",
+    "version": "0.0.1",
+    "description": "Colors and icons for discerning people",
+    "author": "Ricardo Brito <souzk@icloud.com> (https://github.com/souzk)",
+    "displayName": "Lhama",
+    "publisher": "pixy",
+    "icon": "icon.png",
+    "engines": {
+        "vscode": "^1.22.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "iconThemes": [
+            {
+                "id": "lhama",
+                "label": "lhama",
+                "path": "./theme/icons.json"
+            }
+        ]
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/souzk/lhama.git"
+    },
+    "bugs": {
+        "url": "https://github.com/souzk/lhama/issues",
+        "email": "souzk@icloud.com"
+    },
+    "homepage": "https://github.com/souzk/lhama",
+    "scripts": {
+        "compile": "vsce package --out dist/",
+        "prepublish": "npm run compile",
+        "publish": "vsce publish"
+    }
+}
