@@ -1,6 +1,6 @@
 {
     "name": "lhama",
-    "version": "0.0.1",
+    "version": "0.0.3",
     "description": "Colors and icons for discerning people",
     "author": "Ricardo Brito <souzk@icloud.com> (https://github.com/souzk)",
     "displayName": "Lhama",
@@ -29,10 +29,5 @@
         "url": "https://github.com/souzk/lhama/issues",
         "email": "souzk@icloud.com"
     },
-    "homepage": "https://github.com/souzk/lhama",
-    "scripts": {
-        "compile": "vsce package --out dist/",
-        "prepublish": "npm run compile",
-        "publish": "vsce publish"
-    }
+    "homepage": "https://github.com/souzk/lhama"
 }

@@ -150,6 +150,10 @@
             "fontCharacter": "\\f185",
             "fontColor": "#85e89d"
         },
+        "_mdx": {
+            "fontCharacter": "\\f185",
+            "fontColor": "#ffea7f"
+        },
         "_next": {
             "fontCharacter": "\\f227",
             "fontColor": "#959da5"
@@ -362,6 +366,7 @@
         "kt": "_kotlin",
         "lua": "_lua",
         "md": "_markdown",
+        "mdx": "_mdx",
         "otf": "_font",
         "php": "_php",
         "pl": "_perl",
